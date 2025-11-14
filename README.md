@@ -9,7 +9,7 @@ This application allows customers to build custom burgers, select toppings, orde
 ---
 
 ## 📸 Application Screenshots  
-(All images must be inside the `/screenshots` folder)
+
 
 ### 🏠 Home Screen  
 
@@ -40,7 +40,6 @@ This application allows customers to build custom burgers, select toppings, orde
 ---
 
 ## 🎨 UML Class Diagram  
-(Place your diagram image inside `/uml`)
 
 <img width="771" height="1344" alt="TheJaliscoGrillByLosDiaz_ClassDiagram" src="https://github.com/user-attachments/assets/bc1aecd6-4b2f-4d5f-b116-59b1a76b6c8c" />
 
