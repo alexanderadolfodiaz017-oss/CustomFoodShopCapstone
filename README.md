@@ -46,6 +46,34 @@ This application allows customers to build custom burgers, select toppings, orde
 
 ---
 
+## 📦 Java Classes Overview
+
+### 🏁 Main.java  
+Runs the entire application and launches the main menu.
+
+### 📋 Menu.java  
+Displays all menus (burgers, drinks, sides, checkout) and handles user choices.
+
+### 🛒 Order.java  
+Stores all selected items, calculates totals, and builds the final order summary.
+
+### 🍔 Burger.java  
+Represents a customizable burger (type, size, toppings, special option) and calculates pricing.
+
+### 🌶️ Topping.java  
+Represents each topping and whether it is regular or premium.
+
+### 🥤 Drink.java  
+Stores drink type + size and calculates drink prices.
+
+### 🍟 Side.java  
+Represents side items such as fries, churros, or nachos with fixed pricing.
+
+### 🧾 ReceiptWriter.java  
+Generates and saves timestamped receipts in the `/receipts` folder.
+
+---
+
 ## 📝 Project Description  
 The **Jalisco Grill by Los Díaz** is a console-based point-of-sale system where customers can fully customize their food orders.
 
