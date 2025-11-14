@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Order {
 
-    public class Order {
         private List<Object> items = new ArrayList<>();
 
         public void addItem(Object item) {
@@ -40,4 +39,4 @@ public class Order {
         }
     }
 
-}
+
