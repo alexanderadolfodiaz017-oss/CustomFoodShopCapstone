@@ -78,12 +78,12 @@ Generates and saves timestamped receipts in the `/receipts` folder.
 The **Jalisco Grill by Los Díaz** is a console-based point-of-sale system where customers can fully customize their food orders.
 
 Customers can:
-- ✔ Build custom burgers  
-- ✔ Add regular & premium toppings  
-- ✔ Choose side items  
-- ✔ Select drink sizes & flavors  
-- ✔ Review order summary  
-- ✔ Automatically generate timestamped receipts  
+-  Build custom burgers  
+-  Add regular & premium toppings  
+-  Choose side items  
+-  Select drink sizes & flavors  
+-  Review order summary  
+-  Automatically generate timestamped receipts  
 
 The theme reflects Mexican heritage and Bay Area roots, adding a personalized cultural identity to the shop.
 
