@@ -15,4 +15,4 @@ public class Main {
 //Drink.java
 //Side.java
 //Topping.java
-//ReceiptWriter.java.
+//ReceiptWriter.java..
