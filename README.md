@@ -48,7 +48,7 @@ This application allows customers to build custom burgers, select toppings, orde
 
 ## 📦 Java Classes Overview
 
-### 🏁 Main.java  
+###   Main.java  
 Runs the entire application and launches the main menu.
 
 ### 📋 Menu.java  
