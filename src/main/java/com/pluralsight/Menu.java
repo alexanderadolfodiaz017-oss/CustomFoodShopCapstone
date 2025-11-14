@@ -10,7 +10,7 @@ public class Menu {
     public void showHomeScreen() {
         while (true) {
             System.out.println("╔══════════════════════════════╗");
-            System.out.println("║   THE JALISCO GRILL BY LOS DÍAZ  ║");
+            System.out.println("║  THE JALISCO GRILL BY LOS DÍAZ  ║");
             System.out.println("╠══════════════════════════════╣");
             System.out.println("║ 1) New Order                 ║");
             System.out.println("║ 0) Exit                      ║");
@@ -195,12 +195,15 @@ public class Menu {
         System.out.println("0) Cancel");
 
         if (scanner.nextLine().equals("1")) {
-            new ReceiptWriter().writeReceipt(order); // save receipt file
+
+            // ⭐ FIXED — this now matches your ReceiptWriter method name ⭐
+            ReceiptWriter.saveReceipt(order);
+
             System.out.println("Receipt saved!");
         }
     }
 
-    // The mini menus (no need for comments)
+    // Drink menu
     private void showDrinkMenu() {
         System.out.println("╔══════════════════════════════╗");
         System.out.println("║           DRINKS             ║");
@@ -215,6 +218,7 @@ public class Menu {
         System.out.println("╚══════════════════════════════╝");
     }
 
+    // Topping menu
     private void showToppingMenu() {
         System.out.println("╔══════════════════════════════╗");
         System.out.println("║          TOPPINGS            ║");
