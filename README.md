@@ -90,6 +90,6 @@ The theme reflects Mexican heritage and Bay Area roots, adding a personalized cu
 ---
 
 ## 🧾 Receipt Format  
-Receipts are automatically saved using this naming style:
+Receipts are automatically saved and displayed 
 
 
