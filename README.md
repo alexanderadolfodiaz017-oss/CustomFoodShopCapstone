@@ -34,7 +34,7 @@ This application allows customers to build custom burgers, select toppings, orde
 
 ### 🧾 Receipt Example  
 
-<img width="514" height="310" alt="5 Receipt" src="https://github.com/user-attachments/assets/1a126694-b66a-45fd-84ad-eda0718d32b8" />
+<img width="415" height="323" alt="new receipt" src="https://github.com/user-attachments/assets/8e9e79e5-f941-4dda-af00-fa4d970906be" />
 
 
 ---
