@@ -12,26 +12,38 @@ This application allows customers to build custom burgers, select toppings, orde
 (All images must be inside the `/screenshots` folder)
 
 ### 🏠 Home Screen  
-![Home Screen](screenshots/home.png)
+
+<img width="423" height="248" alt="1 HomeScreen" src="https://github.com/user-attachments/assets/32a225a9-cf65-4396-907d-1c78a0517bec" />
+
 
 ### 🛒 Order Menu  
-![Order Menu](screenshots/order.png)
 
-### 🍔 Burger Customization  
-![Burger](screenshots/burger.png)
+<img width="426" height="346" alt="2 Menu Screen" src="https://github.com/user-attachments/assets/39205e36-3326-4432-b931-dc926c192f80" />
+
+
+### 🍔 Burger Customization 
+
+<img width="392" height="620" alt="3 BURGER CUSTOMIZATION" src="https://github.com/user-attachments/assets/2b4c3c1a-b25b-41b0-9d81-44a9356b795b" />
+
 
 ### 💳 Checkout  
-![Checkout](screenshots/checkout.png)
+
+<img width="398" height="544" alt="CHECKOUT SCREEN" src="https://github.com/user-attachments/assets/27482ba9-4b96-4609-8184-99c0a771c893" />
+
+
 
 ### 🧾 Receipt Example  
-![Receipt](screenshots/receipt.png)
+
+<img width="514" height="310" alt="5 Receipt" src="https://github.com/user-attachments/assets/1a126694-b66a-45fd-84ad-eda0718d32b8" />
+
 
 ---
 
 ## 🎨 UML Class Diagram  
 (Place your diagram image inside `/uml`)
 
-![UML Diagram](uml/FoodShopDiagram.png)
+<img width="771" height="1344" alt="TheJaliscoGrillByLosDiaz_ClassDiagram" src="https://github.com/user-attachments/assets/bc1aecd6-4b2f-4d5f-b116-59b1a76b6c8c" />
+
 
 ---
 
