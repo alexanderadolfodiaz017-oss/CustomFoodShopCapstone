@@ -91,4 +91,43 @@ The theme reflects Mexican heritage and Bay Area roots, adding a personalized cu
 ## 🧾 Receipt Format  
 Receipts are automatically saved and displayed 
 
+---
 
+## 🔍 Interesting Code Example – Dynamic Burger Pricing
+
+Below is a key method from my `Burger` class that calculates the final price of a custom burger.  
+It adjusts pricing based on size, special options, and premium toppings:
+
+```java
+public double getPrice() {
+
+    double basePrice = switch (size) {
+        case "Small" -> 5.50;
+        case "Medium" -> 7.00;
+        case "Large" -> 8.50;
+        default -> 7.00;
+    };
+
+    if (special) {
+        // Double patty upcharge
+        basePrice += switch (size) {
+            case "Small" -> 1.00;
+            case "Medium" -> 1.50;
+            case "Large" -> 2.00;
+            default -> 1.00;
+        };
+    }
+
+    for (Topping t : toppings) {
+        if (t.isPremium()) {
+            basePrice += switch (size) {
+                case "Small" -> 0.75;
+                case "Medium" -> 1.50;
+                case "Large" -> 2.25;
+                default -> 1.00;
+            };
+        }
+    }
+
+    return basePrice;
+}
