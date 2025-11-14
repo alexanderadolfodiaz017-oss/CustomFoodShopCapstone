@@ -8,26 +8,33 @@ public class ReceiptWriter {
 
     public void writeReceipt(Order order) {
         try {
-            // Create a timestamp so each receipt file has a unique name
             String timestamp = LocalDateTime.now()
                     .format(DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss"));
 
-            // This opens a new text file to write the receipt into
-            FileWriter writer = new FileWriter("receipt-" + timestamp + ".txt");
+            // Save in a receipts folder
+            String fileName = "receipts/receipt-" + timestamp + ".txt";
+
+            // Create folder if missing
+            java.io.File folder = new java.io.File("receipts");
+            if (!folder.exists()) folder.mkdir();
+
+            FileWriter writer = new FileWriter(fileName);
 
             writer.write("=== The Jalisco Grill by Los Díaz ===\n\n");
 
-            // Write each item in the order
-            for (Object item : order.getItems())
+            for (Object item : order.getItems()) {
                 writer.write(item.toString() + "\n");
+            }
 
-            // Write the total price at the end
-            writer.write("\nTOTAL: $"
-                    + String.format("%.2f", order.getTotal()));
+            writer.write("\nTOTAL: $" + String.format("%.2f", order.getTotal()));
 
-            writer.close(); // finish writing and save the file
+            writer.close();
+
+            System.out.println("Receipt saved: " + fileName);
+
         } catch (Exception e) {
             System.out.println("Could not save receipt.");
+            System.out.println(e.getMessage());
         }
     }
 }
